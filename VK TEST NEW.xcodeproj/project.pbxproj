@@ -6,6 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		631E64032D008DC80095E263 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 631E64022D008DC80095E263 /* RealmSwift */; };
+		631E64042D008DC80095E263 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 631E64022D008DC80095E263 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		631E640F2D008DDB0095E263 /* VK_TEST_NEWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631E640B2D008DDB0095E263 /* VK_TEST_NEWApp.swift */; };
+		631E64102D008DDB0095E263 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 631E64062D008DDB0095E263 /* Preview Assets.xcassets */; };
+		631E64112D008DDB0095E263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 631E64082D008DDB0095E263 /* Assets.xcassets */; };
+		631E64182D008F710095E263 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631E64172D008F710095E263 /* Repository.swift */; };
+		63B9D0AE2D00BDC0007D26E3 /* EditableRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9D0AD2D00BDC0007D26E3 /* EditableRepository.swift */; };
+		63B9D0B22D00BDD8007D26E3 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9D0B12D00BDD8007D26E3 /* APIClient.swift */; };
+		63B9D0B52D00BDF2007D26E3 /* RepositoryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9D0B42D00BDF2007D26E3 /* RepositoryEntity.swift */; };
+		63B9D0BA2D00BE1F007D26E3 /* RepositoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9D0B92D00BE1F007D26E3 /* RepositoryViewModel.swift */; };
+		63B9D0BC2D00BFFF007D26E3 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 63B9D0BB2D00BFFF007D26E3 /* RealmSwift */; };
+		63B9D0BD2D00BFFF007D26E3 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 63B9D0BB2D00BFFF007D26E3 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		63B9D0C02D00C008007D26E3 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 63B9D0BF2D00C008007D26E3 /* RealmSwift */; };
+		63B9D0C12D00C008007D26E3 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 63B9D0BF2D00C008007D26E3 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		63B9D0C52D00C19D007D26E3 /* VK_TEST_NEWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9D0C32D00C19D007D26E3 /* VK_TEST_NEWTests.swift */; };
+		63B9D0C92D00C1A1007D26E3 /* VK_TEST_NEWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9D0C62D00C1A1007D26E3 /* VK_TEST_NEWUITests.swift */; };
+		63B9D0CA2D00C1A1007D26E3 /* VK_TEST_NEWUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9D0C72D00C1A1007D26E3 /* VK_TEST_NEWUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		631E63E02D008D560095E263 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -23,35 +43,65 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		631E64052D008DC80095E263 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				631E64042D008DC80095E263 /* RealmSwift in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B9D0BE2D00C000007D26E3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				63B9D0BD2D00BFFF007D26E3 /* RealmSwift in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B9D0C22D00C008007D26E3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				63B9D0C12D00C008007D26E3 /* RealmSwift in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		631E63CF2D008D540095E263 /* VK TEST NEW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VK TEST NEW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		631E63DF2D008D560095E263 /* VK TEST NEWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VK TEST NEWTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		631E63E92D008D560095E263 /* VK TEST NEWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VK TEST NEWUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631E64062D008DDB0095E263 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		631E64082D008DDB0095E263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		631E640B2D008DDB0095E263 /* VK_TEST_NEWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_TEST_NEWApp.swift; sourceTree = "<group>"; };
+		631E64172D008F710095E263 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		63B9D0AD2D00BDC0007D26E3 /* EditableRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableRepository.swift; sourceTree = "<group>"; };
+		63B9D0B12D00BDD8007D26E3 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		63B9D0B42D00BDF2007D26E3 /* RepositoryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryEntity.swift; sourceTree = "<group>"; };
+		63B9D0B92D00BE1F007D26E3 /* RepositoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryViewModel.swift; sourceTree = "<group>"; };
+		63B9D0C32D00C19D007D26E3 /* VK_TEST_NEWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_TEST_NEWTests.swift; sourceTree = "<group>"; };
+		63B9D0C62D00C1A1007D26E3 /* VK_TEST_NEWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_TEST_NEWUITests.swift; sourceTree = "<group>"; };
+		63B9D0C72D00C1A1007D26E3 /* VK_TEST_NEWUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_TEST_NEWUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		631E63D12D008D540095E263 /* VK TEST NEW */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "VK TEST NEW";
-			sourceTree = "<group>";
-		};
-		631E63E22D008D560095E263 /* VK TEST NEWTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "VK TEST NEWTests";
-			sourceTree = "<group>";
-		};
-		631E63EC2D008D560095E263 /* VK TEST NEWUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "VK TEST NEWUITests";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		631E63CC2D008D540095E263 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				631E64032D008DC80095E263 /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B9D0BC2D00BFFF007D26E3 /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B9D0C02D00C008007D26E3 /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +127,10 @@
 		631E63C62D008D540095E263 = {
 			isa = PBXGroup;
 			children = (
-				631E63D12D008D540095E263 /* VK TEST NEW */,
-				631E63E22D008D560095E263 /* VK TEST NEWTests */,
-				631E63EC2D008D560095E263 /* VK TEST NEWUITests */,
+				631E640C2D008DDB0095E263 /* VK TEST NEW */,
+				63B9D0C42D00C19D007D26E3 /* VK TEST NEWTests */,
+				63B9D0C82D00C1A1007D26E3 /* VK TEST NEWUITests */,
+				631E64012D008DC80095E263 /* Frameworks */,
 				631E63D02D008D540095E263 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +145,93 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		631E64012D008DC80095E263 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		631E64072D008DDB0095E263 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				631E64062D008DDB0095E263 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		631E640C2D008DDB0095E263 /* VK TEST NEW */ = {
+			isa = PBXGroup;
+			children = (
+				63B9D0B82D00BE19007D26E3 /* ViewModel */,
+				63B9D0B32D00BDED007D26E3 /* Local Storage */,
+				631E64162D008E470095E263 /* API */,
+				631E64152D008E350095E263 /* View */,
+				631E64122D008DE60095E263 /* Model */,
+				631E64072D008DDB0095E263 /* Preview Content */,
+				631E64082D008DDB0095E263 /* Assets.xcassets */,
+				631E640B2D008DDB0095E263 /* VK_TEST_NEWApp.swift */,
+			);
+			path = "VK TEST NEW";
+			sourceTree = "<group>";
+		};
+		631E64122D008DE60095E263 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				63B9D0AD2D00BDC0007D26E3 /* EditableRepository.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		631E64152D008E350095E263 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				631E64172D008F710095E263 /* Repository.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		631E64162D008E470095E263 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				63B9D0B12D00BDD8007D26E3 /* APIClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		63B9D0B32D00BDED007D26E3 /* Local Storage */ = {
+			isa = PBXGroup;
+			children = (
+				63B9D0B42D00BDF2007D26E3 /* RepositoryEntity.swift */,
+			);
+			path = "Local Storage";
+			sourceTree = "<group>";
+		};
+		63B9D0B82D00BE19007D26E3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				63B9D0B92D00BE1F007D26E3 /* RepositoryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		63B9D0C42D00C19D007D26E3 /* VK TEST NEWTests */ = {
+			isa = PBXGroup;
+			children = (
+				63B9D0C32D00C19D007D26E3 /* VK_TEST_NEWTests.swift */,
+			);
+			path = "VK TEST NEWTests";
+			sourceTree = "<group>";
+		};
+		63B9D0C82D00C1A1007D26E3 /* VK TEST NEWUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63B9D0C62D00C1A1007D26E3 /* VK_TEST_NEWUITests.swift */,
+				63B9D0C72D00C1A1007D26E3 /* VK_TEST_NEWUITestsLaunchTests.swift */,
+			);
+			path = "VK TEST NEWUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -102,16 +242,15 @@
 				631E63CB2D008D540095E263 /* Sources */,
 				631E63CC2D008D540095E263 /* Frameworks */,
 				631E63CD2D008D540095E263 /* Resources */,
+				631E64052D008DC80095E263 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				631E63D12D008D540095E263 /* VK TEST NEW */,
-			);
 			name = "VK TEST NEW";
 			packageProductDependencies = (
+				631E64022D008DC80095E263 /* RealmSwift */,
 			);
 			productName = "VK TEST NEW";
 			productReference = 631E63CF2D008D540095E263 /* VK TEST NEW.app */;
@@ -124,17 +263,16 @@
 				631E63DB2D008D560095E263 /* Sources */,
 				631E63DC2D008D560095E263 /* Frameworks */,
 				631E63DD2D008D560095E263 /* Resources */,
+				63B9D0BE2D00C000007D26E3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				631E63E12D008D560095E263 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				631E63E22D008D560095E263 /* VK TEST NEWTests */,
-			);
 			name = "VK TEST NEWTests";
 			packageProductDependencies = (
+				63B9D0BB2D00BFFF007D26E3 /* RealmSwift */,
 			);
 			productName = "VK TEST NEWTests";
 			productReference = 631E63DF2D008D560095E263 /* VK TEST NEWTests.xctest */;
@@ -147,17 +285,16 @@
 				631E63E52D008D560095E263 /* Sources */,
 				631E63E62D008D560095E263 /* Frameworks */,
 				631E63E72D008D560095E263 /* Resources */,
+				63B9D0C22D00C008007D26E3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				631E63EB2D008D560095E263 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				631E63EC2D008D560095E263 /* VK TEST NEWUITests */,
-			);
 			name = "VK TEST NEWUITests";
 			packageProductDependencies = (
+				63B9D0BF2D00C008007D26E3 /* RealmSwift */,
 			);
 			productName = "VK TEST NEWUITests";
 			productReference = 631E63E92D008D560095E263 /* VK TEST NEWUITests.xctest */;
@@ -195,6 +332,9 @@
 			);
 			mainGroup = 631E63C62D008D540095E263;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				631E63FE2D008DB50095E263 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 631E63D02D008D540095E263 /* Products */;
 			projectDirPath = "";
@@ -212,6 +352,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				631E64102D008DDB0095E263 /* Preview Assets.xcassets in Resources */,
+				631E64112D008DDB0095E263 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +378,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B9D0AE2D00BDC0007D26E3 /* EditableRepository.swift in Sources */,
+				63B9D0B52D00BDF2007D26E3 /* RepositoryEntity.swift in Sources */,
+				63B9D0BA2D00BE1F007D26E3 /* RepositoryViewModel.swift in Sources */,
+				631E640F2D008DDB0095E263 /* VK_TEST_NEWApp.swift in Sources */,
+				631E64182D008F710095E263 /* Repository.swift in Sources */,
+				63B9D0B22D00BDD8007D26E3 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B9D0C52D00C19D007D26E3 /* VK_TEST_NEWTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +399,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B9D0C92D00C1A1007D26E3 /* VK_TEST_NEWUITests.swift in Sources */,
+				63B9D0CA2D00C1A1007D26E3 /* VK_TEST_NEWUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,8 +547,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VK TEST NEW/Preview Content\"";
+				DEVELOPMENT_TEAM = QSKBQ22VF6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VK-TEST-NEW-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -424,8 +577,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VK TEST NEW/Preview Content\"";
+				DEVELOPMENT_TEAM = QSKBQ22VF6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VK-TEST-NEW-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -552,6 +707,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		631E63FE2D008DB50095E263 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		631E64022D008DC80095E263 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 631E63FE2D008DB50095E263 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		63B9D0BB2D00BFFF007D26E3 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 631E63FE2D008DB50095E263 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		63B9D0BF2D00C008007D26E3 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 631E63FE2D008DB50095E263 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 631E63C72D008D540095E263 /* Project object */;
 }
