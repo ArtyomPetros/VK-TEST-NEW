@@ -17,24 +17,15 @@
 		63B9D0B22D00BDD8007D26E3 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9D0B12D00BDD8007D26E3 /* APIClient.swift */; };
 		63B9D0B52D00BDF2007D26E3 /* RepositoryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9D0B42D00BDF2007D26E3 /* RepositoryEntity.swift */; };
 		63B9D0BA2D00BE1F007D26E3 /* RepositoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9D0B92D00BE1F007D26E3 /* RepositoryViewModel.swift */; };
-		63B9D0BC2D00BFFF007D26E3 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 63B9D0BB2D00BFFF007D26E3 /* RealmSwift */; };
-		63B9D0BD2D00BFFF007D26E3 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 63B9D0BB2D00BFFF007D26E3 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		63B9D0C02D00C008007D26E3 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 63B9D0BF2D00C008007D26E3 /* RealmSwift */; };
-		63B9D0C12D00C008007D26E3 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 63B9D0BF2D00C008007D26E3 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		63B9D0C52D00C19D007D26E3 /* VK_TEST_NEWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9D0C32D00C19D007D26E3 /* VK_TEST_NEWTests.swift */; };
-		63B9D0C92D00C1A1007D26E3 /* VK_TEST_NEWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9D0C62D00C1A1007D26E3 /* VK_TEST_NEWUITests.swift */; };
-		63B9D0CA2D00C1A1007D26E3 /* VK_TEST_NEWUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9D0C72D00C1A1007D26E3 /* VK_TEST_NEWUITestsLaunchTests.swift */; };
+		63B9D0DE2D00C531007D26E3 /* APIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9D0DD2D00C531007D26E3 /* APIClientProtocol.swift */; };
+		63B9D0E02D00C551007D26E3 /* LocalStorageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9D0DF2D00C551007D26E3 /* LocalStorageProtocol.swift */; };
+		63B9D0E22D00C585007D26E3 /* MockAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9D0E12D00C585007D26E3 /* MockAPIClient.swift */; };
+		63B9D0E52D00C600007D26E3 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 63B9D0E42D00C600007D26E3 /* RealmSwift */; };
+		63B9D0E62D00C600007D26E3 /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 63B9D0E42D00C600007D26E3 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		631E63E02D008D560095E263 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 631E63C72D008D540095E263 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 631E63CE2D008D540095E263;
-			remoteInfo = "VK TEST NEW";
-		};
-		631E63EA2D008D560095E263 /* PBXContainerItemProxy */ = {
+		63B9D0D32D00C40C007D26E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 631E63C72D008D540095E263 /* Project object */;
 			proxyType = 1;
@@ -55,24 +46,13 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63B9D0BE2D00C000007D26E3 /* Embed Frameworks */ = {
+		63B9D0E72D00C600007D26E3 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				63B9D0BD2D00BFFF007D26E3 /* RealmSwift in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		63B9D0C22D00C008007D26E3 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				63B9D0C12D00C008007D26E3 /* RealmSwift in Embed Frameworks */,
+				63B9D0E62D00C600007D26E3 /* RealmSwift in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,8 +61,6 @@
 
 /* Begin PBXFileReference section */
 		631E63CF2D008D540095E263 /* VK TEST NEW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VK TEST NEW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		631E63DF2D008D560095E263 /* VK TEST NEWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VK TEST NEWTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		631E63E92D008D560095E263 /* VK TEST NEWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VK TEST NEWUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		631E64062D008DDB0095E263 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		631E64082D008DDB0095E263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		631E640B2D008DDB0095E263 /* VK_TEST_NEWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_TEST_NEWApp.swift; sourceTree = "<group>"; };
@@ -91,10 +69,19 @@
 		63B9D0B12D00BDD8007D26E3 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		63B9D0B42D00BDF2007D26E3 /* RepositoryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryEntity.swift; sourceTree = "<group>"; };
 		63B9D0B92D00BE1F007D26E3 /* RepositoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryViewModel.swift; sourceTree = "<group>"; };
-		63B9D0C32D00C19D007D26E3 /* VK_TEST_NEWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_TEST_NEWTests.swift; sourceTree = "<group>"; };
-		63B9D0C62D00C1A1007D26E3 /* VK_TEST_NEWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_TEST_NEWUITests.swift; sourceTree = "<group>"; };
-		63B9D0C72D00C1A1007D26E3 /* VK_TEST_NEWUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_TEST_NEWUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63B9D0CF2D00C40C007D26E3 /* VK TEST NEWTestss.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VK TEST NEWTestss.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B9D0DD2D00C531007D26E3 /* APIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientProtocol.swift; sourceTree = "<group>"; };
+		63B9D0DF2D00C551007D26E3 /* LocalStorageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageProtocol.swift; sourceTree = "<group>"; };
+		63B9D0E12D00C585007D26E3 /* MockAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		63B9D0D02D00C40C007D26E3 /* VK TEST NEWTestss */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "VK TEST NEWTestss";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		631E63CC2D008D540095E263 /* Frameworks */ = {
@@ -105,19 +92,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		631E63DC2D008D560095E263 /* Frameworks */ = {
+		63B9D0CC2D00C40C007D26E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63B9D0BC2D00BFFF007D26E3 /* RealmSwift in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		631E63E62D008D560095E263 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63B9D0C02D00C008007D26E3 /* RealmSwift in Frameworks */,
+				63B9D0E52D00C600007D26E3 /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,9 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				631E640C2D008DDB0095E263 /* VK TEST NEW */,
-				63B9D0C42D00C19D007D26E3 /* VK TEST NEWTests */,
-				63B9D0C82D00C1A1007D26E3 /* VK TEST NEWUITests */,
-				631E64012D008DC80095E263 /* Frameworks */,
+				63B9D0D02D00C40C007D26E3 /* VK TEST NEWTestss */,
 				631E63D02D008D540095E263 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -139,17 +116,9 @@
 			isa = PBXGroup;
 			children = (
 				631E63CF2D008D540095E263 /* VK TEST NEW.app */,
-				631E63DF2D008D560095E263 /* VK TEST NEWTests.xctest */,
-				631E63E92D008D560095E263 /* VK TEST NEWUITests.xctest */,
+				63B9D0CF2D00C40C007D26E3 /* VK TEST NEWTestss.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		631E64012D008DC80095E263 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		631E64072D008DDB0095E263 /* Preview Content */ = {
@@ -194,6 +163,8 @@
 		631E64162D008E470095E263 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				63B9D0E12D00C585007D26E3 /* MockAPIClient.swift */,
+				63B9D0DD2D00C531007D26E3 /* APIClientProtocol.swift */,
 				63B9D0B12D00BDD8007D26E3 /* APIClient.swift */,
 			);
 			path = API;
@@ -202,6 +173,7 @@
 		63B9D0B32D00BDED007D26E3 /* Local Storage */ = {
 			isa = PBXGroup;
 			children = (
+				63B9D0DF2D00C551007D26E3 /* LocalStorageProtocol.swift */,
 				63B9D0B42D00BDF2007D26E3 /* RepositoryEntity.swift */,
 			);
 			path = "Local Storage";
@@ -213,23 +185,6 @@
 				63B9D0B92D00BE1F007D26E3 /* RepositoryViewModel.swift */,
 			);
 			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		63B9D0C42D00C19D007D26E3 /* VK TEST NEWTests */ = {
-			isa = PBXGroup;
-			children = (
-				63B9D0C32D00C19D007D26E3 /* VK_TEST_NEWTests.swift */,
-			);
-			path = "VK TEST NEWTests";
-			sourceTree = "<group>";
-		};
-		63B9D0C82D00C1A1007D26E3 /* VK TEST NEWUITests */ = {
-			isa = PBXGroup;
-			children = (
-				63B9D0C62D00C1A1007D26E3 /* VK_TEST_NEWUITests.swift */,
-				63B9D0C72D00C1A1007D26E3 /* VK_TEST_NEWUITestsLaunchTests.swift */,
-			);
-			path = "VK TEST NEWUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,49 +211,30 @@
 			productReference = 631E63CF2D008D540095E263 /* VK TEST NEW.app */;
 			productType = "com.apple.product-type.application";
 		};
-		631E63DE2D008D560095E263 /* VK TEST NEWTests */ = {
+		63B9D0CE2D00C40C007D26E3 /* VK TEST NEWTestss */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 631E63F62D008D560095E263 /* Build configuration list for PBXNativeTarget "VK TEST NEWTests" */;
+			buildConfigurationList = 63B9D0D52D00C40C007D26E3 /* Build configuration list for PBXNativeTarget "VK TEST NEWTestss" */;
 			buildPhases = (
-				631E63DB2D008D560095E263 /* Sources */,
-				631E63DC2D008D560095E263 /* Frameworks */,
-				631E63DD2D008D560095E263 /* Resources */,
-				63B9D0BE2D00C000007D26E3 /* Embed Frameworks */,
+				63B9D0CB2D00C40C007D26E3 /* Sources */,
+				63B9D0CC2D00C40C007D26E3 /* Frameworks */,
+				63B9D0CD2D00C40C007D26E3 /* Resources */,
+				63B9D0E72D00C600007D26E3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				631E63E12D008D560095E263 /* PBXTargetDependency */,
+				63B9D0D42D00C40C007D26E3 /* PBXTargetDependency */,
 			);
-			name = "VK TEST NEWTests";
+			fileSystemSynchronizedGroups = (
+				63B9D0D02D00C40C007D26E3 /* VK TEST NEWTestss */,
+			);
+			name = "VK TEST NEWTestss";
 			packageProductDependencies = (
-				63B9D0BB2D00BFFF007D26E3 /* RealmSwift */,
+				63B9D0E42D00C600007D26E3 /* RealmSwift */,
 			);
-			productName = "VK TEST NEWTests";
-			productReference = 631E63DF2D008D560095E263 /* VK TEST NEWTests.xctest */;
+			productName = "VK TEST NEWTestss";
+			productReference = 63B9D0CF2D00C40C007D26E3 /* VK TEST NEWTestss.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		631E63E82D008D560095E263 /* VK TEST NEWUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 631E63F92D008D560095E263 /* Build configuration list for PBXNativeTarget "VK TEST NEWUITests" */;
-			buildPhases = (
-				631E63E52D008D560095E263 /* Sources */,
-				631E63E62D008D560095E263 /* Frameworks */,
-				631E63E72D008D560095E263 /* Resources */,
-				63B9D0C22D00C008007D26E3 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				631E63EB2D008D560095E263 /* PBXTargetDependency */,
-			);
-			name = "VK TEST NEWUITests";
-			packageProductDependencies = (
-				63B9D0BF2D00C008007D26E3 /* RealmSwift */,
-			);
-			productName = "VK TEST NEWUITests";
-			productReference = 631E63E92D008D560095E263 /* VK TEST NEWUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -313,12 +249,9 @@
 					631E63CE2D008D540095E263 = {
 						CreatedOnToolsVersion = 16.1;
 					};
-					631E63DE2D008D560095E263 = {
+					63B9D0CE2D00C40C007D26E3 = {
 						CreatedOnToolsVersion = 16.1;
-						TestTargetID = 631E63CE2D008D540095E263;
-					};
-					631E63E82D008D560095E263 = {
-						CreatedOnToolsVersion = 16.1;
+						LastSwiftMigration = 1610;
 						TestTargetID = 631E63CE2D008D540095E263;
 					};
 				};
@@ -341,8 +274,7 @@
 			projectRoot = "";
 			targets = (
 				631E63CE2D008D540095E263 /* VK TEST NEW */,
-				631E63DE2D008D560095E263 /* VK TEST NEWTests */,
-				631E63E82D008D560095E263 /* VK TEST NEWUITests */,
+				63B9D0CE2D00C40C007D26E3 /* VK TEST NEWTestss */,
 			);
 		};
 /* End PBXProject section */
@@ -357,14 +289,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		631E63DD2D008D560095E263 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		631E63E72D008D560095E263 /* Resources */ = {
+		63B9D0CD2D00C40C007D26E3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -383,39 +308,27 @@
 				63B9D0BA2D00BE1F007D26E3 /* RepositoryViewModel.swift in Sources */,
 				631E640F2D008DDB0095E263 /* VK_TEST_NEWApp.swift in Sources */,
 				631E64182D008F710095E263 /* Repository.swift in Sources */,
+				63B9D0DE2D00C531007D26E3 /* APIClientProtocol.swift in Sources */,
 				63B9D0B22D00BDD8007D26E3 /* APIClient.swift in Sources */,
+				63B9D0E02D00C551007D26E3 /* LocalStorageProtocol.swift in Sources */,
+				63B9D0E22D00C585007D26E3 /* MockAPIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		631E63DB2D008D560095E263 /* Sources */ = {
+		63B9D0CB2D00C40C007D26E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63B9D0C52D00C19D007D26E3 /* VK_TEST_NEWTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		631E63E52D008D560095E263 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63B9D0C92D00C1A1007D26E3 /* VK_TEST_NEWUITests.swift in Sources */,
-				63B9D0CA2D00C1A1007D26E3 /* VK_TEST_NEWUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		631E63E12D008D560095E263 /* PBXTargetDependency */ = {
+		63B9D0D42D00C40C007D26E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 631E63CE2D008D540095E263 /* VK TEST NEW */;
-			targetProxy = 631E63E02D008D560095E263 /* PBXContainerItemProxy */;
-		};
-		631E63EB2D008D560095E263 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 631E63CE2D008D540095E263 /* VK TEST NEW */;
-			targetProxy = 631E63EA2D008D560095E263 /* PBXContainerItemProxy */;
+			targetProxy = 63B9D0D32D00C40C007D26E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -599,71 +512,40 @@
 			};
 			name = Release;
 		};
-		631E63F72D008D560095E263 /* Debug */ = {
+		63B9D0D62D00C40C007D26E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.VK-TEST-NEWTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VK-TEST-NEWTestss";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VK TEST NEW.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VK TEST NEW";
 			};
 			name = Debug;
 		};
-		631E63F82D008D560095E263 /* Release */ = {
+		63B9D0D72D00C40C007D26E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.VK-TEST-NEWTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VK-TEST-NEWTestss";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VK TEST NEW.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VK TEST NEW";
-			};
-			name = Release;
-		};
-		631E63FA2D008D560095E263 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.VK-TEST-NEWUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "VK TEST NEW";
-			};
-			name = Debug;
-		};
-		631E63FB2D008D560095E263 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.VK-TEST-NEWUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "VK TEST NEW";
 			};
 			name = Release;
 		};
@@ -688,20 +570,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		631E63F62D008D560095E263 /* Build configuration list for PBXNativeTarget "VK TEST NEWTests" */ = {
+		63B9D0D52D00C40C007D26E3 /* Build configuration list for PBXNativeTarget "VK TEST NEWTestss" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				631E63F72D008D560095E263 /* Debug */,
-				631E63F82D008D560095E263 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		631E63F92D008D560095E263 /* Build configuration list for PBXNativeTarget "VK TEST NEWUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				631E63FA2D008D560095E263 /* Debug */,
-				631E63FB2D008D560095E263 /* Release */,
+				63B9D0D62D00C40C007D26E3 /* Debug */,
+				63B9D0D72D00C40C007D26E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -725,12 +598,7 @@
 			package = 631E63FE2D008DB50095E263 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;
 		};
-		63B9D0BB2D00BFFF007D26E3 /* RealmSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 631E63FE2D008DB50095E263 /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = RealmSwift;
-		};
-		63B9D0BF2D00C008007D26E3 /* RealmSwift */ = {
+		63B9D0E42D00C600007D26E3 /* RealmSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 631E63FE2D008DB50095E263 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;

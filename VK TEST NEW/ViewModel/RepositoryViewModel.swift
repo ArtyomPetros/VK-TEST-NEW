@@ -11,11 +11,11 @@ class RepositoryViewModel: ObservableObject {
     @Published var hasReachedEnd = false
     private let itemsPerPage = 60
 
-    private let apiClient: APIClient
-    private let localStorage: LocalStorage
+    private let apiClient: APIClientProtocol
+    private let localStorage: LocalStorageProtocol
     private var currentPage = 1
 
-    init(apiClient: APIClient = APIClient(), localStorage: LocalStorage = LocalStorage()) {
+    init(apiClient: APIClientProtocol = APIClient(), localStorage: LocalStorageProtocol = LocalStorage()) {
         self.apiClient = apiClient
         self.localStorage = localStorage
     }

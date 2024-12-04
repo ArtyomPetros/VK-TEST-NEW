@@ -10,7 +10,7 @@ class RepositoryEntity: Object {
     @Persisted var avatarURL: String
 }
 
-class LocalStorage {
+class LocalStorage: LocalStorageProtocol {
     let realm = try! Realm()
     
     func save(repositories: [Repository]) {
@@ -55,3 +55,4 @@ class LocalStorage {
         }
     }
 }
+

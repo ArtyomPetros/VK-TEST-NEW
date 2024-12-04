@@ -3,7 +3,9 @@ import Combine
 import SwiftUI
 import RealmSwift
 
-class APIClient {
+import Foundation
+
+class APIClient: APIClientProtocol {
     private let baseURL = "https://api.github.com/search/repositories"
     
     func fetchRepositories(query: String, page: Int, sortBy: String = "stars") async throws -> [Repository] {

@@ -57,6 +57,17 @@
                ReferencedContainer = "container:VK TEST NEW.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "63B9D0CE2D00C40C007D26E3"
+               BuildableName = "VK TEST NEWTestss.xctest"
+               BlueprintName = "VK TEST NEWTestss"
+               ReferencedContainer = "container:VK TEST NEW.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
